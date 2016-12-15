@@ -1,0 +1,12 @@
+p a:link,p a:visited{
+	display: block;
+	width: 28px;
+	height: 18px;
+	line-height: 20px;
+	text-decoration: none;
+	background: url('../img/came.png') no-repeat top left;
+ 	text-indent: 20px;
+} 
+p a:hover{
+	background-position: bottom left;
+}

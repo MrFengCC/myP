@@ -1,0 +1,46 @@
+body{
+	background: #ccc;
+}
+.container{
+	position: relative;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.picture img{
+	border: 1px solid white;
+	margin: 0 5px 5px 0;
+}
+.picture:hover{
+	background-color: transparent;
+}
+.picture:hover img{
+	border: 2px solid bule;
+}
+.picture .girl{
+	width: 100px;
+	height: 60px;
+	border: #f60 2px solid;
+}
+.picture span{
+	position: absolute;
+	background-color: #fc3;
+	padding: 5px;
+	left: -1000px;
+	border: 1px dashed gray;
+	visibility: hidden;
+	color: black;
+	font-weight: 800;
+	text-decoration: none;
+	/* text-align: center; */
+}
+.picture span img{
+	border-width: 0;
+	padding: 2px;
+	width: 400px;
+	height: 300px;
+}
+.picture:hover span{
+	visibility: visible;
+	top: 0;
+	left: 230px;
+}

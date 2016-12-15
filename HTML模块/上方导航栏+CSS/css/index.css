@@ -1,0 +1,36 @@
+body {
+    background-color: #ffdee0;
+}
+
+.nav {
+    font-family: Arial;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    padding: 3px 6px 3px 6px;
+    text-decoration: none;
+    border: 1px solid #711515;
+    margin: 2px;
+}
+
+.nav li:link,
+.nav li:visited {
+    background-color: #c11136;
+    color: #fff;
+}
+
+.nav:hover {
+    background-color: #990020;
+    color: #ff0;
+}
